@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
+- name: 🇲🇩 摩尔多瓦 (Moldova) 01 - willking
   server: 5.252.179.15
   port: 443
   udp: true
@@ -16,8 +16,8 @@ proxies:
     public-key: XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY
     short-id: 296f27de82dad7ff
   servername: www.bing.com
-  client-fingerprint: firefox
-- name: 🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe
+  client-fingerprint: chrome
+- name: 🇲🇩 摩尔多瓦 (Moldova) 02 - willking
   server: 5.181.158.193
   port: 443
   udp: true
@@ -30,7 +30,7 @@ proxies:
     short-id: 7c41ea9b53d618af
   servername: svoboda18.bystriynet.online
   client-fingerprint: firefox
-- name: 🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe
+- name: 🇲🇩 摩尔多瓦 (Moldova) 03 - willking
   server: 5.181.158.100
   port: 8470
   udp: true
@@ -48,16 +48,16 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe
+  - 🇲🇩 摩尔多瓦 (Moldova) 01 - willking
+  - 🇲🇩 摩尔多瓦 (Moldova) 02 - willking
+  - 🇲🇩 摩尔多瓦 (Moldova) 03 - willking
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe
-  - 🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe
+  - 🇲🇩 摩尔多瓦 (Moldova) 01 - willking
+  - 🇲🇩 摩尔多瓦 (Moldova) 02 - willking
+  - 🇲🇩 摩尔多瓦 (Moldova) 03 - willking
 rules:
 - MATCH,PROXIES

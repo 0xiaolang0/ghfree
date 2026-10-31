@@ -5,7 +5,7 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - willking",
       "server": "5.252.179.15",
       "server_port": 443,
       "uuid": "0ab273e4-cea6-41d0-bbab-41071d2fc455",
@@ -15,7 +15,7 @@
         "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -26,7 +26,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 02 - willking",
       "server": "5.181.158.193",
       "server_port": 443,
       "uuid": "1c8f7130-8c1a-4949-831d-1d45b39c795b",
@@ -47,7 +47,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 03 - willking",
       "server": "5.181.158.100",
       "server_port": 8470,
       "uuid": "1c8f7130-8c1a-4949-831d-1d45b39c795b",
@@ -71,18 +71,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - willking",
+        "🇲🇩 摩尔多瓦 (Moldova) 02 - willking",
+        "🇲🇩 摩尔多瓦 (Moldova) 03 - willking"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 02 - xiaohe",
-        "🇲🇩 摩尔多瓦 (Moldova) 03 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - willking",
+        "🇲🇩 摩尔多瓦 (Moldova) 02 - willking",
+        "🇲🇩 摩尔多瓦 (Moldova) 03 - willking"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
